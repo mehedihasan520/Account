@@ -499,8 +499,8 @@ input {
     .navbar {
         width: 100%;
         height: auto;
-        display: block;
-        padding: 2rem;
+        display: flex;
+        padding: 1rem;
         margin: 0;
         text-align: center;
     }
@@ -508,16 +508,25 @@ input {
         margin: 10px;
         align-items: center;
         justify-content: center;
+        column-gap: 5px;
     }
     .navbar-right-side {
         padding: 0;
-        justify-content: space-between;
+    }
+    input {
+        padding: 2px;
+    }
+    i {
+        padding: 2px;
+    }
+    .icons {
+        gap: 5px;
     }
     .nav-right-form {
         border-radius: 10px;
         background-color: #f5f5f5;
         color: #828288; 
-        padding: 2px;
+        padding: 1px;
         margin-top: 10px;
         margin-left: 0;
     }
@@ -533,6 +542,35 @@ input {
         color: #828288; 
         border: none;
         margin-left: 0;
+    }
+    .my-account, .account-container {
+        padding: 1rem;
+    }
+    .account-left h3 {
+        width: 250px;
+    }
+    .account-left ul li {
+        margin-left: 10px;
+    }
+    .name {
+        width: 400px;
+        column-gap: 5%;
+    }
+    .inputbox {
+       width: 400px;
+    }
+    .e-mail-password {
+        width: 400px;
+        margin: 10px 0;
+        column-gap: 5%;
+    }
+    .password-change {
+        width: 400px;
+        height: auto;
+    }
+    .password-change input {
+        width: 100%;
+        margin: 10px 0;
     }
     .footer{
         width: 100%;
@@ -595,7 +633,6 @@ input {
         color: #828288; 
         padding: 2px;
         margin-top: 10px;
-        margin-left: 0;
     }
     .nav-right-form>input {
         border: none;
@@ -610,6 +647,45 @@ input {
         border: none;
         margin-left: 0;
     }
+    .my-account, .account-container {
+        padding: 1rem;
+    }
+    .account-left h3 {
+        width: 120px;
+        font-size: 12px;
+    }
+    .account-left ul li {
+        margin-left: 10px;
+        font-size: 11px;
+    }
+    .name {
+        width: 250px;
+        column-gap: 5%;
+    }
+    .inputbox {
+       width: 180px;
+       font-size: 12px;
+    }
+    .inputbox input {
+        font-size: 12px;
+    }
+    .e-mail-password {
+        width: 250px;
+        font-size: 12px;
+        margin: 10px 0;
+        column-gap: 5%;
+    }
+    .password-change {
+        width: 250px;
+        height: auto;
+        font-size: 12px;
+    }
+    .password-change input {
+        width: 100%;
+        margin: 10px 0;
+        font-size: 12px;
+    }
+    
     .footer{
         width: 100%;
         height: auto;
