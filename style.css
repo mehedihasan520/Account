@@ -8,20 +8,29 @@ html body {
     font-family: Arial, Helvetica, sans-serif;
     overflow-x: hidden;
 }
+body {
+    width: 1440px;
+    height: 1533px;
+}
 /* Header Start */
 .top-header {
     background-color: black;
     color: white;
     display: flex;
-    width: auto;
-    height: 70px;
+    width: 1440px;
+    height: 84px;
     align-items: center;
     justify-content: space-between;
-    padding: 0 8%;
+    padding: 0 135px;
+    font-size: 14px;
 }
 
 .top-heading {
     margin-left: 20%;
+}
+.top-heading ins {
+    font-size: 14px;
+    font-weight: bold;
 }
 .top-dropdown {
     margin-left: 20px;
@@ -30,48 +39,63 @@ html body {
 /* Navbar Start */
 .navbar {
     display: flex;
-    padding: 2% 8%;
+    padding: 88px 135px;
     justify-content: space-between;
     width: 100%;
-    height: 80px;
+    height: 38px;
+    align-items: center;
 }
-
+.navbar h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
 .nav-ul {
     display: flex;
     list-style: none;
-    column-gap: 55px;
+    column-gap: 48px;
 }
-
+.nav-ul li {
+    font-size: 16px;
+}
 .navbar-right-side {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 24px;
 }
 form {
-    border-radius: 10px;
+    border-radius: 4px;
     background-color: #f5f5f5;
     color: #828288; 
-    padding: 4px 8px;
+    padding: 7px 20px 7px 12px;
     border: none;
     margin-left: auto;
 }
 
 i {
+    width: 24px;
+    height: 24px;
+    padding: 4px;
+    border-radius: 4px;
     color: #828288;
 }
 
 input {
-    padding: 8px;
+    width: 160px;
+    height: 18px;
+    padding: 4px;
     border: none;
-    border-radius: 10px;
+    border-radius: 4px;
     background-color: #f5f5f5;
     color: #828288;
+    font-size: 12px;
+    gap: 34px;
 }
 .icons {
-    height: 40px;
+    width: 128px;
+    height: 32px;
     display: flex;
-    gap: 20px;
+    gap: 16px;
     justify-content: center;
     align-items: center;
 }
@@ -92,18 +116,30 @@ input {
 /* Account Start */
 .my-account {
     display: flex;
-    padding: 2% 8%;
+    padding: 222px 135px;
     justify-content: space-between;
 }
 .my-account-left ul{
     display: flex;
     list-style: none;
-    column-gap: 10px;
+    column-gap: 8px;
+    font-size: 14px;
 }
 .my-account-right ul{
     display: flex;
     list-style: none;
     column-gap: 5px;
+    font-size: 14px;
+}
+.account-left h3 {
+    width: 166px;
+    height: 24px;
+    font-size: 16px;
+}
+.account-left ul li {
+    width: 166px;
+    height: 24px;
+    font-size: 16px;
 }
 .li-home {
     color: #828288;
@@ -112,7 +148,9 @@ input {
     color: #DB4444;
 }
 .account-container {
-    padding: 2% 8%;
+    width: 780px;
+    height: 630px;
+    padding: 0 135px;
     display: flex;
     justify-content: space-between;
 }
@@ -127,60 +165,82 @@ input {
 .account-left ul li {
     margin-top: 10px;
     margin-left: 30px;
+    font-size: 16px;
 }
 .account-right {
-    /* width: auto;
-    height: 630px; */
-    padding: 3% 5%;
+    width: 780;
+    height: 630px;
+    padding: 40px 80px;
+}
+.account-right h2{
+    font-size: 20px;
+    color: #DB4444;
 }
 .name {
     width: 710px;
     height: 82px;
     display: flex;
     justify-content: space-between;
-    margin: 10px 0;
-    column-gap: 5%;
+    margin-top: 16px;
+    column-gap: 16px;
+    font-size: 16px;
 }
 .inputbox {
-   width: 350px;
-   height: 82px;
+   width: 330px;
+   height: 50px;
+   font-size: 16px;
 }
 .inputbox input {
     width: 100%;
-    margin: 10px 0;
+    height: 50px;
+    margin-top: 16px;
+    font-size: 16px;
 }
 .e-mail-password {
+    width: 710px;
+    height: 82px;
     display: flex;
     justify-content: space-between;
-    margin: 10px 0;
-    column-gap: 5%;
+    margin-top: 16px;
+    column-gap: 16px;
+    font-size: 16px;
 }
 .password-change {
     width: 710px;
-    height: auto;
+    height: 214px;
+    column-gap: 50px;
+    font-size: 16px;
+    margin-top: 20px;
 }
 .password-change input {
     width: 100%;
-    margin: 10px 0;
+    height: 50px;
+    margin-top: 16px;
+    font-size: 16px;
 }
 .btn-account {
-    width: 220px;
+    width: 303px;
     height: 56px;
+    display: flex;
     margin-left: auto;
-    margin-top: 10px;
+    column-gap: 10px;
+    margin-top: 20px;
 }
 .cancel {
-    padding: 10px 20px;
+    padding: 16px 24px;
     border: none;
     background-color: #FFFF;
     color: #0D0D0D;
+    font-size: 16px;
 }
 .save-change {
-    padding: 10px 20px;
+    width: 214px;
+    padding: 16px 24px;
     border: none;
     border-radius: 4px;
     background-color: #DB4444;
     color: #FFFF;
+    font-size: 16px;
 }
 /* Account End */
 /* Footer Start */
@@ -189,38 +249,48 @@ input {
     height: 440px;
     background-color: #0D0D0D;
     color: #FFFF;
-    padding: 8% 8%;
+    padding: 80px 135px;
     display: flex;
     justify-content: space-between;
 }
+.footer h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.footer h3 {
+    font-size: 20px;
+}
+.footer p {
+    font-size: 16px;
+}
 .executive form {
     border: 1px solid #f5f5f5;
-    border-radius: 5px;
+    border-radius: 4px;
     color: #828288; 
-    padding: 4px 8px;
+    padding: 12px 16px 12px 0px;
     background-color: #0D0D0D;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: auto;
-    width: 200px;
-    height: auto;
+    width: 217px;
+    height: 48px;
+    text-align: center;
 }
 .executive input {
-    position: relative;
     background-color: #0D0D0D;
     width: 150px;
 }
 .send {
-    position: absolute;
+    width: 24px;
+    height: 24px;
     color: #828288;
     background-color: #0D0D0D;
-    margin-top: 5px;
 }
 
 .executive h3 {
-    margin-top: 10px;
+    margin-top: 24px;
 }
 .executive p {
-    margin-top: 10px;
+    margin-top: 20px;
 }
 .copyright {
     background-color: #0D0D0D;
@@ -229,17 +299,17 @@ input {
 }
 .account ul li {
     list-style: none;
-    margin-top: 20px;
+    margin-top: 24px;
 }
 .support p {
-    margin-top: 20px;
+    margin-top: 24px;
 }
 .quick-link ul li {
     list-style: none;
-    margin-top: 20px;
+    margin-top: 24px;
 }
 .download-app p {
-    margin-top: 20px;
+    margin-top: 24px;
 }
 .apps {
     padding: 10px 10px;
@@ -249,7 +319,7 @@ input {
     margin: 5px 10px;
 }
 .social-icons img {
-    margin-right: 20px;
+    margin-right: 24px;
 }
 /* Footer End */
 @media screen {
@@ -258,7 +328,7 @@ input {
     }
 }
 
-@media screen and (max-width:1350px) {
+/* @media screen and (max-width:1350px) {
     .top-header {
         background-color: black;
         color: white;
@@ -364,8 +434,8 @@ input {
         color: #828288;
         background-color: #0D0D0D;
     }
-}
-
+} */
+/* 
 @media screen and (max-width:1024px) {
     .top-header {
         background-color: black;
@@ -477,7 +547,7 @@ input {
         color: #828288;
         background-color: #0D0D0D;
     }
-}
+} */
 
 @media screen and (max-width:900px) {
     .top-header {
