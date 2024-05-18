@@ -549,7 +549,7 @@ input {
     }
 } */
 
-@media screen and (max-width:900px) {
+/* @media screen and (max-width:900px) {
     .top-header {
         background-color: black;
         color: white;
@@ -900,4 +900,124 @@ input {
         background-color: #0D0D0D;
     }
     
+} */
+@media screen and (max-width: 425PX) {
+    .top-header {
+        width: 30%;
+        height: 50px;
+        padding: 1rem;
+    }
+    .top-heading {
+        margin-left: 0;
+    }
+    .navbar {
+        display: grid;
+        grid-template-columns: auto;
+        padding: 1rem;
+        width: 30%;
+        height: auto;
+        row-gap: 15px;
+    }
+    .navbar h2 {
+        text-align: center;
+    }
+    .nav-ul {
+        justify-content: center;
+        margin-left: 10px;
+    }
+    .navbar-right-side {
+        margin-left: 20px;
+        column-gap: 20px;
+    }
+    .icons {
+        gap: 10px;
+    }
+    .my-account {
+        width: 30%;
+        padding: 1rem;
+    }
+    .account-container {
+        width: 30%;
+        display: grid;
+        padding: 1rem;
+        height: auto;
+    }
+    .account-left {
+        width: 56%;
+        height: auto;
+    }
+    .account-right {
+        width: 56%;
+        height: 500px;
+        padding: 0;
+    }
+    .name {
+        width: 190px;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .inputbox {
+       width: 190px;
+       height: 30px;
+       font-size: 14px;
+       margin-top: 10px;
+    }
+    .inputbox input {
+        width: 190px;
+        height: 30px;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .e-mail-password {
+        width: 56%;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .password-change {
+        width: 397px;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .password-change input {
+        width: 100%;
+        height: 30px;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .btn-account {
+        margin: 0 0 0 15%;
+    }
+    .footer {
+        width: 30%;
+        height: auto;
+        padding: 1rem;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .footer h2 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .footer h3 {
+        font-size: 16px;
+    }
+    .footer p {
+        font-size: 14px;
+    }
+    .executive form {
+        padding: 5px 7px 5px 0;
+        margin-left: 0;
+        height: 35px;
+        width: 180px;
+        margin: 10px 0;
+    }
+    .executive input {
+        width: 130px;
+    }
+    .copyright {
+        width: 30%;
+        padding: 1rem;
+        align-items: center;
+    }
+
 }
