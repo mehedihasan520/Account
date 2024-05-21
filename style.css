@@ -328,69 +328,67 @@ input {
     }
 }
 
-/* @media screen and (max-width:1350px) {
-     .top-header {
-        width: 50%;
-        height: 60px;
-        padding: 1rem;
+@media screen and (max-width:1350px) {
+    .top-header {
+        width: 57%;
+        height: 68px;
+        padding: 2.5rem;
     }
     .top-heading {
         margin-left: 0;
     }
     .navbar {
-        display: grid;
-        grid-template-columns: auto;
-        padding: 1rem;
-        width: 30%;
+        display: flex;
+        padding: 2.5rem;
+        width: 57%;
         height: auto;
-        row-gap: 15px;
+        column-gap: 10px;
     }
     .navbar h2 {
         text-align: center;
     }
     .nav-ul {
         justify-content: center;
-        margin-left: 10px;
+        column-gap: 10px;
     }
     .navbar-right-side {
-        margin-left: 20px;
-        column-gap: 20px;
+        column-gap: 10px;
     }
     .icons {
         gap: 10px;
     }
     .my-account {
-        width: 30%;
-        padding: 1rem;
+        width: 57%;
+        padding: 2.5rem;
     }
     .account-container {
-        width: 30%;
-        display: grid;
-        padding: 1rem;
+        width: 57%;
+        display: flex;
+        padding: 2.5rem;
         height: auto;
     }
     .account-left {
-        width: 56%;
+        width: 45%;
         height: auto;
     }
     .account-right {
-        width: 56%;
+        width: 55%;
         height: 500px;
         padding: 0;
     }
     .name {
-        width: 190px;
+        width: 200px;
         font-size: 14px;
         margin-top: 10px;
     }
     .inputbox {
-       width: 190px;
+       width: 200px;
        height: 30px;
        font-size: 14px;
        margin-top: 10px;
     }
     .inputbox input {
-        width: 190px;
+        width: 200px;
         height: 30px;
         font-size: 14px;
         margin-top: 10px;
@@ -401,7 +399,7 @@ input {
         margin-top: 10px;
     }
     .password-change {
-        width: 397px;
+        width: 415px;
         font-size: 14px;
         margin-top: 10px;
     }
@@ -414,7 +412,7 @@ input {
     .btn-account {
         width: 300px;
         height: 40px;
-        margin-left: 75%;
+        margin-left: 45%;
     }
     .cancel {
         padding: 8px 12px;
@@ -426,11 +424,11 @@ input {
         font-size: 14px;
     }
     .footer {
-        width: 30%;
+        width: 57%;
         height: auto;
-        padding: 1rem;
+        padding: 2.5rem;
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto auto auto;
     }
     .footer h2 {
         font-size: 18px;
@@ -453,26 +451,25 @@ input {
         width: 130px;
     }
     .copyright {
-        width: 30%;
-        padding: 1rem;
+        width: 57%;
+        padding: 2.5rem;
         align-items: center;
     }
-} */
+} 
  
-/* @media screen and (max-width:1024px) {
+@media screen and (max-width:1024px) {
     .top-header {
-        width: 50%;
+        width: 57%;
         height: 60px;
-        padding: 1rem;
+        padding: 2.5rem;
     }
     .top-heading {
         margin-left: 0;
     }
     .navbar {
-        display: grid;
-        grid-template-columns: auto;
-        padding: 1rem;
-        width: 30%;
+        display: flex;
+        padding: 2.5rem;
+        width: 57%;
         height: auto;
         row-gap: 15px;
     }
@@ -481,47 +478,46 @@ input {
     }
     .nav-ul {
         justify-content: center;
-        margin-left: 10px;
+        column-gap: 10px;
     }
     .navbar-right-side {
-        margin-left: 20px;
-        column-gap: 20px;
+        column-gap: 10px;
     }
     .icons {
         gap: 10px;
     }
     .my-account {
-        width: 30%;
-        padding: 1rem;
+        width: 57%;
+        padding: 2.5rem;
     }
     .account-container {
-        width: 30%;
-        display: grid;
-        padding: 1rem;
+        width: 57%;
+        display: flex;
+        padding: 2.5rem;
         height: auto;
     }
     .account-left {
-        width: 56%;
+        width: 45%;
         height: auto;
     }
     .account-right {
-        width: 56%;
+        width: 55%;
         height: 500px;
         padding: 0;
     }
     .name {
-        width: 190px;
+        width: 200px;
         font-size: 14px;
         margin-top: 10px;
     }
     .inputbox {
-       width: 190px;
+       width: 200px;
        height: 30px;
        font-size: 14px;
        margin-top: 10px;
     }
     .inputbox input {
-        width: 190px;
+        width: 200px;
         height: 30px;
         font-size: 14px;
         margin-top: 10px;
@@ -532,7 +528,7 @@ input {
         margin-top: 10px;
     }
     .password-change {
-        width: 397px;
+        width: 415px;
         font-size: 14px;
         margin-top: 10px;
     }
@@ -545,7 +541,7 @@ input {
     .btn-account {
         width: 300px;
         height: 40px;
-        margin-left: 75%;
+        margin-left: 45%;
     }
     .cancel {
         padding: 8px 12px;
@@ -557,11 +553,11 @@ input {
         font-size: 14px;
     }
     .footer {
-        width: 30%;
-        height: auto;
-        padding: 1rem;
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto auto auto;
+        width: 57%;
+        height: auto;
+        padding: 2.5rem;
     }
     .footer h2 {
         font-size: 18px;
@@ -584,157 +580,25 @@ input {
         width: 130px;
     }
     .copyright {
-        width: 30%;
-        padding: 1rem;
-        align-items: center;
-    }
-} */
-
-/* @media screen and (max-width:900px) {
-    .top-header {
-        width: 50%;
-        height: 50px;
-        padding: 1rem;
-    }
-    .top-heading {
-        margin-left: 0;
-    }
-    .navbar {
-        display: grid;
-        grid-template-columns: auto;
-        padding: 1rem;
-        width: 50%;
-        height: auto;
-        row-gap: 15px;
-    }
-    .navbar h2 {
-        text-align: center;
-    }
-    .nav-ul {
-        justify-content: center;
-        margin-left: 10px;
-    }
-    .navbar-right-side {
-        margin-left: 20px;
-        column-gap: 20px;
-    }
-    .icons {
-        gap: 10px;
-    }
-    .my-account {
-        width: 30%;
-        padding: 1rem;
-    }
-    .account-container {
-        width: 30%;
-        display: grid;
-        padding: 1rem;
-        height: auto;
-    }
-    .account-left {
-        width: 56%;
-        height: auto;
-    }
-    .account-right {
-        width: 56%;
-        height: 500px;
-        padding: 0;
-    }
-    .name {
-        width: 190px;
-        font-size: 14px;
-        margin-top: 10px;
-    }
-    .inputbox {
-       width: 190px;
-       height: 30px;
-       font-size: 14px;
-       margin-top: 10px;
-    }
-    .inputbox input {
-        width: 190px;
-        height: 30px;
-        font-size: 14px;
-        margin-top: 10px;
-    }
-    .e-mail-password {
-        width: 56%;
-        font-size: 14px;
-        margin-top: 10px;
-    }
-    .password-change {
-        width: 397px;
-        font-size: 14px;
-        margin-top: 10px;
-    }
-    .password-change input {
-        width: 100%;
-        height: 30px;
-        font-size: 14px;
-        margin-top: 10px;
-    }
-    .btn-account {
-        width: 300px;
-        height: 40px;
-        margin-left: 75%;
-    }
-    .cancel {
-        padding: 8px 12px;
-        font-size: 14px;
-    }
-    .save-change {
-        width: 150px;
-        padding: 8px 12px;
-        font-size: 14px;
-    }
-    .footer {
-        width: 30%;
-        height: auto;
-        padding: 1rem;
-        display: grid;
-        grid-template-columns: auto auto;
-    }
-    .footer h2 {
-        font-size: 18px;
-        font-weight: bold;
-    }
-    .footer h3 {
-        font-size: 16px;
-    }
-    .footer p {
-        font-size: 14px;
-    }
-    .executive form {
-        padding: 5px 7px 5px 0;
-        margin-left: 0;
-        height: 35px;
-        width: 180px;
-        margin: 10px 0;
-    }
-    .executive input {
-        width: 130px;
-    }
-    .copyright {
-        width: 30%;
-        padding: 1rem;
+        width: 57%;
+        padding: 2.5rem;
         align-items: center;
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:900px) {
     .top-header {
-        width: 30%;
-        height: 50px;
-        padding: 1rem;
+        width: 57%;
+        height: 60px;
+        padding: 2rem;
     }
     .top-heading {
         margin-left: 0;
     }
     .navbar {
-        display: grid;
-        grid-template-columns: auto;
-        padding: 1rem;
-        width: 30%;
+        display: flex;
+        padding: 2rem;
+        width: 57%;
         height: auto;
         row-gap: 15px;
     }
@@ -743,47 +607,46 @@ input {
     }
     .nav-ul {
         justify-content: center;
-        margin-left: 10px;
+        column-gap: 15px;
     }
     .navbar-right-side {
-        margin-left: 20px;
-        column-gap: 20px;
+        column-gap: 10px;
     }
     .icons {
         gap: 10px;
     }
     .my-account {
-        width: 30%;
-        padding: 1rem;
+        width: 57%;
+        padding: 2rem;
     }
     .account-container {
-        width: 30%;
-        display: grid;
-        padding: 1rem;
+        width: 57%;
+        display: flex;
+        padding: 2rem;
         height: auto;
     }
     .account-left {
-        width: 56%;
+        width: 45%;
         height: auto;
     }
     .account-right {
-        width: 56%;
+        width: 55%;
         height: 500px;
         padding: 0;
     }
     .name {
-        width: 190px;
+        width: 200px;
         font-size: 14px;
         margin-top: 10px;
     }
     .inputbox {
-       width: 190px;
+       width: 200px;
        height: 30px;
        font-size: 14px;
        margin-top: 10px;
     }
     .inputbox input {
-        width: 190px;
+        width: 200px;
         height: 30px;
         font-size: 14px;
         margin-top: 10px;
@@ -794,7 +657,7 @@ input {
         margin-top: 10px;
     }
     .password-change {
-        width: 397px;
+        width: 415px;
         font-size: 14px;
         margin-top: 10px;
     }
@@ -807,7 +670,7 @@ input {
     .btn-account {
         width: 300px;
         height: 40px;
-        margin-left: 75%;
+        margin-left: 45%;
     }
     .cancel {
         padding: 8px 12px;
@@ -819,11 +682,11 @@ input {
         font-size: 14px;
     }
     .footer {
-        width: 30%;
+        width: 57%;
         height: auto;
         padding: 1rem;
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto auto auto;
     }
     .footer h2 {
         font-size: 18px;
@@ -846,28 +709,162 @@ input {
         width: 130px;
     }
     .copyright {
-        width: 30%;
-        padding: 1rem;
+        width: 57%;
+        padding: 2rem;
         align-items: center;
     }
-} */
+} 
+
+@media screen and (max-width:768px) {
+    .top-header {
+        width: 57%;
+        height: 60px;
+        padding: 2rem;
+    }
+    .top-heading {
+        margin-left: 0;
+    }
+    .navbar {
+        display: grid;
+        grid-template-columns: auto;
+        margin-left: 12%;
+        padding: 2rem;
+        width: 57%;
+        height: auto;
+        row-gap: 15px;
+    }
+    .navbar h2 {
+        text-align: center;
+    }
+    .nav-ul {
+        justify-content: center;
+        margin-left: 10px;
+    }
+    .navbar-right-side {
+        margin-left: 20px;
+        column-gap: 20px;
+    }
+    .icons {
+        gap: 10px;
+    }
+    .my-account {
+        width: 57%;
+        padding: 2rem;
+    }
+    .account-container {
+        width: 57%;
+        display: flex;
+        padding: 1rem;
+        height: auto;
+    }
+    .account-left {
+        width: 35%;
+        height: auto;
+        padding: 1rem;
+    }
+    .account-right {
+        width: 55%;
+        height: 500px;
+        padding: 0;
+    }
+    .name {
+        width: 200px;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .inputbox {
+       width: 200px;
+       height: 30px;
+       font-size: 14px;
+       margin-top: 10px;
+    }
+    .inputbox input {
+        width: 200px;
+        height: 30px;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .e-mail-password {
+        width: 57%;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .password-change {
+        width: 415px;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .password-change input {
+        width: 100%;
+        height: 30px;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .btn-account {
+        width: 300px;
+        height: 40px;
+        margin-left: 45%;
+    }
+    .cancel {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+    .save-change {
+        width: 150px;
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+    .footer {
+        width: 57%;
+        height: auto;
+        padding: 2rem;
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .footer h2 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .footer h3 {
+        font-size: 16px;
+    }
+    .footer p {
+        font-size: 14px;
+    }
+    .executive form {
+        padding: 5px 7px 5px 0;
+        margin-left: 0;
+        height: 35px;
+        width: 180px;
+        margin: 10px 0;
+    }
+    .executive input {
+        width: 130px;
+    }
+    .copyright {
+        width: 57%;
+        padding: 2rem;
+        align-items: center;
+    }
+} 
 
 @media screen and (max-width:600px) {
     .top-header {
-        width: 600px;
-        height: 50px;
-        padding: 1rem;
+        width: 57%;
+        height: 60px;
+        padding: 2rem;
     }
     .top-heading {
         margin-left: 0;
     }
     .navbar {
-        display: grid;
-        grid-template-columns: auto;
-        padding: 1rem;
-        width: 30%;
+        display: block;
+        row-gap: 20px;
+        padding: 2rem;
+        width: 57%;
         height: auto;
         row-gap: 15px;
+        margin-left: 0%;
     }
     .navbar h2 {
         text-align: center;
@@ -875,30 +872,36 @@ input {
     .nav-ul {
         justify-content: center;
         margin-left: 10px;
+        margin-top: 20px;
     }
     .navbar-right-side {
-        margin-left: 20px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
         column-gap: 20px;
+    }
+    form {
+        margin-left: 0;
     }
     .icons {
         gap: 10px;
     }
     .my-account {
-        width: 30%;
-        padding: 1rem;
+        width: 57%;
+        padding: 2rem;
     }
     .account-container {
-        width: 30%;
-        display: grid;
-        padding: 1rem;
+        width: 57%;
+        display: flex;
+        padding: 2rem;
         height: auto;
     }
     .account-left {
-        width: 56%;
+        width: 45%;
         height: auto;
     }
     .account-right {
-        width: 56%;
+        width: 55%;
         height: 500px;
         padding: 0;
     }
@@ -920,12 +923,12 @@ input {
         margin-top: 10px;
     }
     .e-mail-password {
-        width: 56%;
+        width: 57%;
         font-size: 14px;
         margin-top: 10px;
     }
     .password-change {
-        width: 397px;
+        width: 400px;
         font-size: 14px;
         margin-top: 10px;
     }
@@ -938,7 +941,7 @@ input {
     .btn-account {
         width: 300px;
         height: 40px;
-        margin-left: 75%;
+        margin-left: 38%;
     }
     .cancel {
         padding: 8px 12px;
@@ -950,11 +953,11 @@ input {
         font-size: 14px;
     }
     .footer {
-        width: 30%;
+        width: 57%;
         height: auto;
-        padding: 1rem;
+        padding: 2rem;
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto auto auto;
     }
     .footer h2 {
         font-size: 18px;
@@ -977,7 +980,7 @@ input {
         width: 130px;
     }
     .copyright {
-        width: 30%;
+        width: 57%;
         padding: 1rem;
         align-items: center;
     }
@@ -985,8 +988,8 @@ input {
 
 @media screen and (max-width: 425PX) {
     .top-header {
-        width: 425px;
-        height: auto;
+        width:57%;
+        height: 50px;
         padding: 1rem;
     }
     .top-heading {
@@ -996,9 +999,10 @@ input {
         display: grid;
         grid-template-columns: auto;
         padding: 1rem;
-        width: 30%;
+        width: 57%;
         height: auto;
         row-gap: 15px;
+        margin-left: 12%;
     }
     .navbar h2 {
         text-align: center;
@@ -1015,14 +1019,15 @@ input {
         gap: 10px;
     }
     .my-account {
-        width: 30%;
+        width: 57%;
         padding: 1rem;
     }
     .account-container {
-        width: 30%;
+        width: 57%;
         display: grid;
         padding: 1rem;
         height: auto;
+        margin-left: 14%;
     }
     .account-left {
         width: 56%;
@@ -1034,18 +1039,18 @@ input {
         padding: 0;
     }
     .name {
-        width: 190px;
+        width: 185px;
         font-size: 14px;
         margin-top: 10px;
     }
     .inputbox {
-       width: 190px;
+       width: 185px;
        height: 30px;
        font-size: 14px;
        margin-top: 10px;
     }
     .inputbox input {
-        width: 190px;
+        width: 185px;
         height: 30px;
         font-size: 14px;
         margin-top: 10px;
@@ -1056,7 +1061,7 @@ input {
         margin-top: 10px;
     }
     .password-change {
-        width: 397px;
+        width: 390px;
         font-size: 14px;
         margin-top: 10px;
     }
@@ -1067,9 +1072,9 @@ input {
         margin-top: 10px;
     }
     .btn-account {
-        width: 300px;
+        width: 200px;
         height: 40px;
-        margin-left: 85%;
+        margin-left: 80%;
     }
     .cancel {
         padding: 8px 12px;
@@ -1081,11 +1086,11 @@ input {
         font-size: 14px;
     }
     .footer {
-        width: 30%;
+        width: 57%;
         height: auto;
         padding: 1rem;
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto auto auto;
     }
     .footer h2 {
         font-size: 18px;
@@ -1108,10 +1113,9 @@ input {
         width: 130px;
     }
     .copyright {
-        width: 30%;
+        width: 57%;
         padding: 1rem;
         align-items: center;
     }
 
 }
-
